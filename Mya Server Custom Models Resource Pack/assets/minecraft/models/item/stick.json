@@ -5,6 +5,7 @@
   },
 
   "overrides": [
-    { "predicate": {"custom_model_data": 164701}, "model": "item/mya_doll" }
+    { "predicate": {"custom_model_data": 164701}, "model": "item/mya_doll" },
+    { "predicate": {"custom_model_data": 330001}, "model": "item/nyan_doll" }
   ]
 }
