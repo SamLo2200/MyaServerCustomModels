@@ -1,0 +1,40 @@
+{
+    "model": {
+        "type": "minecraft:select",
+        "property": "minecraft:custom_model_data",
+        "fallback": {
+            "type": "minecraft:model",
+            "model": "minecraft:item/stick"
+        },
+        "cases": [
+            {
+                "when": "mya_doll",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "mya_server_custom_models:item/mya_doll"
+                }
+            },
+            {
+                "when": "mya_three_zero_doll",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "mya_server_custom_models:item/mya_three_zero_doll"
+                }
+            },
+            {
+                "when": "nyan_doll",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "mya_server_custom_models:item/nyan_doll"
+                }
+            },
+            {
+                "when": "gummy_doll",
+                "model": {
+                    "type": "minecraft:model",
+                    "model": "mya_server_custom_models:item/gummy_doll"
+                }
+            }
+        ]
+    }
+}
