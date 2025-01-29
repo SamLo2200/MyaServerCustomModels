@@ -16,7 +16,7 @@ echo "🗂️ Working directory: $WORKING_DIR"
 
 SOURCE_DIR="$WORKING_DIR/mya_server_custom_models_resource_pack"
 MINECRAFT_PATH="$HOME/Library/Application Support/minecraft/resourcepacks"
-ARCHIVE_NAME="../Mya_Server_Custom_Models_Resource_Pack_1.21.4.zip"
+ARCHIVE_NAME="../Mya_Server_Custom_Models_Resource_Pack.zip"
 
 if [ -d "$MINECRAFT_PATH" ]; then
     echo "📍 Minecraft is installed at: $MINECRAFT_PATH"
