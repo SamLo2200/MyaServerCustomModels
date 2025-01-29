@@ -27,7 +27,20 @@ if [ -d "$MINECRAFT_PATH" ]; then
     zip -r "$ARCHIVE_NAME" ./* -x "*.DS_Store"
     cp "$ARCHIVE_NAME" "$MINECRAFT_PATH"
     echo "🎉 Successfully zipped and copied the resource pack."
+    
+    if [ -f "$ARCHIVE_NAME" ]; then
+    SHA1_RESULT=$(shasum -a 1 "$ARCHIVE_NAME") || {
+        echo "❌ Error: Failed to calculate SHA1"
+        exit 1
+    }
+    echo "🧮 SHA1: $SHA1_RESULT"
+else
+    echo "❌ Error: Archive not found after creation"
+    exit 1
+fi
+
 else
     echo "😔 Minecraft is not installed in the default location. Failed to obtain the path."
+    exit 1
 fi
 
