@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "item/mya_three_zero_doll_body",
-		"2": "item/mya_three_zero_doll_skirt",
-		"3": "item/mya_three_zero_doll_mouth",
-		"4": "item/mya_three_zero_doll_tag",
-		"5": "item/mya_three_zero_doll_meme",
-		"6": "item/mya_three_zero_doll_stuff",
-		"7": "item/mya_three_zero_doll_hair",
-		"8": "item/mya_three_zero_doll_stuff2",
-		"particle": "item/mya_three_zero_doll_body"
+		"0": "mya_server_custom_models:item/mya_three_zero_doll_body",
+		"2": "mya_server_custom_models:item/mya_three_zero_doll_skirt",
+		"3": "mya_server_custom_models:item/mya_three_zero_doll_mouth",
+		"4": "mya_server_custom_models:item/mya_three_zero_doll_tag",
+		"5": "mya_server_custom_models:item/mya_three_zero_doll_meme",
+		"6": "mya_server_custom_models:item/mya_three_zero_doll_stuff",
+		"7": "mya_server_custom_models:item/mya_three_zero_doll_hair",
+		"8": "mya_server_custom_models:item/mya_three_zero_doll_stuff2",
+		"particle": "mya_server_custom_models:item/mya_three_zero_doll_body"
 	},
 	"elements": [
 		{
