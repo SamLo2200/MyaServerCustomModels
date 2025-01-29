@@ -1,0 +1,12 @@
+{
+    "emeraldwalk.runonsave": {
+        "commands": [
+            {
+                "match": ".*",
+                "autoShowOutputPanel": "always",
+                "cmd": "./compress_on_save.sh ${workspaceFolder}",
+                "showElapsed": true
+            }
+        ]
+    }
+}

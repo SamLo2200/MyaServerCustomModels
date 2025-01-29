@@ -1,7 +1,16 @@
 # MacOS Only Save Script 
 #!/bin/bash
 
-WORKING_DIR=$(echo "$PWD") # Obtain the working directory
+# WORKING_DIR=$(echo "$PWD") # Obtain the working directory
+
+# Obtain working directory through args
+
+if [ -z "$1" ]; then
+    echo "Usage: $0 <directory>"
+    exit 1
+fi
+
+WORKING_DIR="$1"
 
 echo "Working directory: $WORKING_DIR"
 
